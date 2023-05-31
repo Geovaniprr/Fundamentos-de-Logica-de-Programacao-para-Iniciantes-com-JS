@@ -1,0 +1,17 @@
+const nota = 1
+
+if (nota <= 10 && nota >= 9){
+    console.log("A")
+}
+if (nota < 8.9 && nota >= 7){
+    console.log("B")
+}
+if (nota < 6.9 && nota >= 5){
+    console.log("C")
+}
+if (nota < 4.9 && nota >= 3){
+    console.log("D")
+}
+if (nota >= 0 && nota < 2.9){
+    console.log("F")
+}
